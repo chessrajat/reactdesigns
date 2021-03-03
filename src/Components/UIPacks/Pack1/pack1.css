@@ -1,0 +1,97 @@
+:root {
+  --primary: #2361d3;
+  --light: #cacaca;
+}
+
+/* Pricing card */
+
+.p_card {
+  width: 100% !important;
+  height: 400px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.p_card_content {
+  padding: 30px !important;
+}
+
+.pricing {
+  color: var(--primary);
+  font-size: 35px !important;
+}
+.small_text {
+  font-size: 12px;
+}
+
+.p_card_header {
+  font-size: 30px !important;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.p_icon_active {
+  color: var(--primary);
+}
+.p_icon {
+  color: var(--light);
+}
+
+.primary_button {
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  background-color: var(--primary) !important;
+  color: white !important;
+  width: 100%;
+}
+
+.p_list_item {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* V1 Card */
+
+.v1_card {
+  font-family: "Varela Round", sans-serif;
+  width: 100% !important;
+  background: url("./Assets/bg1.jpg") rgba(255, 0, 150, 0.3) !important;
+  height: 400px;
+  background-blend-mode: multiply;
+}
+
+
+.v1_card_content {
+  padding: 30px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.v1_button {
+  margin-top: auto !important;
+  opacity: 0.9;
+}
+
+/* V2 Card */
+
+.v2_card_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+}
+
+.v2_pp{
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.v2_desc{
+  font-size: 18px;
+  margin-top: 20px !important;
+  width: 70%;
+  text-align: center;
+}
+
+.v2_button{
+  margin-top: 25px !important;
+  margin-bottom: 30px !important;
+}

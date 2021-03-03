@@ -1,10 +1,11 @@
 import "./App.css";
+import Pack1 from "./Components/UIPacks/Pack1/Pack1";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Designs</h1>
-    </div>
+    <>
+      <Pack1 />
+    </>
   );
 }
 
