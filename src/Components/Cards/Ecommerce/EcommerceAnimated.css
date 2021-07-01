@@ -1,0 +1,130 @@
+.main {
+  margin: 0px !important;
+  min-height: 100vh;
+  background-image: url("./backgroundp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80% !important;
+  height: 600px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+  margin-top: 0 !important;
+  width: 100% !important;
+  height: 100%;
+}
+
+.grid-left {
+  display: grid !important;
+  place-items: center;
+  background-color: #e8cfa7;
+  height: 100% !important;
+}
+.main-img {
+  position: relative !important;
+  animation-name: imageEntry;
+  animation-duration: 1s;
+}
+
+.nav-image-con {
+  position: absolute;
+  bottom: -30px;
+}
+.nav-image {
+  cursor: pointer;
+  margin: 10px !important;
+  width: 100px !important;
+  height: auto !important;
+}
+
+.grid-right {
+  background-color: #ffffff;
+  font-family: "Varela Round", sans-serif;
+  padding: 35px !important;
+}
+
+.p-catetory {
+  font-size: 1.7rem;
+  color: darkgray;
+  font-weight: 600 !important;
+}
+
+.p-name {
+  font-size: 2.5rem;
+  font-weight: 600 !important;
+  margin-top: -20px !important;
+}
+
+.ui.star.rating .icon {
+  color: #e8cfa7 !important;
+}
+
+.p-price {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: rgb(94, 94, 94);
+}
+.p-content {
+  color: lightgray;
+  font-size: 1.1rem;
+}
+
+.p-available {
+  display: flex !important;
+}
+
+.p-available p {
+  font-size: 1.3rem;
+  color: darkgray;
+}
+
+.p-available .icon.a {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 3px;
+  color: #8099b3;
+}
+.p-available .icon.b {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 3px;
+  color: #a36d53;
+}
+.p-available .icon.c {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 3px;
+  color: #527073;
+}
+.cart-val {
+  margin-top: 50px;
+}
+
+.num-input {
+  width: 80px;
+  height: 50px;
+  margin-right: 20px;
+}
+.cart-btn {
+  height: 50px;
+  background-color: #527073 !important;
+  color: #e8cfa7 !important;
+}
+
+@keyframes imageEntry {
+  from {
+    right: 500px;
+  }
+  to {
+    right: 0px;
+  }
+}
